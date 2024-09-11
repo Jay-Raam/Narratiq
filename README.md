@@ -1,6 +1,6 @@
 ## Narratiq — v1
 
-Welcome to Narratiq! I’m Jayasriraam, a front-end Developer based in Chennai, and I’m excited to introduce my latest project.
+Welcome to Narratiq! I’m Jayasriraam, a front-end Developer based in Chennai, and I’m excited to introduce my project.
 Narratiq is a comprehensive web application designed for users to explore, catalog, and borrow books. 
 Combining an intuitive user interface with a powerful backend, Narratiq delivers an engaging and seamless library experience.
 

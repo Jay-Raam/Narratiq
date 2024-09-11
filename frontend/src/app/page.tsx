@@ -62,7 +62,7 @@ export default async function Home() {
                 About Us
               </h1>
               <BlurIn
-                word="At Narratiq, we believe that every book opens a door to a new world, and we’re here to help you find the keys. Our mission is to offer a vast and diverse collection of literature that caters to every reader’s needs and interests. With a focus on books from the last few decades, we strive to provide you with a rich and relevant reading experience."
+                word="At Narratiq, we believe that every book opens a door to a new world, and we're here to help you find the keys. Our mission is to offer a vast and diverse collection of literature that caters to every reader's needs and interests. With a focus on books from the last few decades, we strive to provide you with a rich and relevant reading experience."
                 className="text-white text-left md:leading-8 text-[15px] md:text-[18px]"
               />
               <BlurIn
@@ -92,7 +92,7 @@ export default async function Home() {
 
         <div className="day-quote flex justify-center items-center gap-0 flex-col md:h-[100vh]">
           <BlurIn
-            word="Narratiq Quote of the Day"
+            word="Narratiq Day"
             className="font-bold text-white mt-10 text-2xl md:text-5xl"
           />
           <FadeText

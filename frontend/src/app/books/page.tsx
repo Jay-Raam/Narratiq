@@ -27,6 +27,7 @@ const BooksList: React.FC = () => {
   useEffect(() => {
     const loadBooks = async () => {
       try {
+        console.log(totalPages);
         const response = await fetch(
           `https://narratiq-server.vercel.app/books?page=${page}`
         );

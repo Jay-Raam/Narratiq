@@ -3,17 +3,6 @@ import { fetchBookById } from "@/app/api/fecth";
 import Image from "next/image";
 import Link from "next/link";
 
-interface Book {
-  _id: string;
-  Title: string;
-  author: string;
-  description: string;
-  image: string;
-  publishedDate: number;
-  infoLink: string;
-  categories: string[];
-}
-
 interface BookPageProps {
   params: {
     id: string;

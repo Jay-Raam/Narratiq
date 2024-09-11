@@ -10,7 +10,7 @@ export interface Book {
   categories : [];
 }
 
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = "https://narratiq-server.vercel.app";
 
 
 export async function fetchBookById(id: string): Promise<Book> {

@@ -19,14 +19,16 @@ const SearchPage: React.FC = () => {
 
   const handleSearch = async (event: React.FormEvent) => {
     event.preventDefault();
-    if (!query) return; // Don't search if the query is empty
+    if (!query) return;
 
     setLoading(true);
     setError(null);
 
     try {
       const response = await fetch(
-        `http://localhost:3001/search?name=${encodeURIComponent(query)}`
+        `https://narratiq-server.vercel.app/search?name=${encodeURIComponent(
+          query
+        )}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");

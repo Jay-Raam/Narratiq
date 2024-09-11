@@ -28,7 +28,7 @@ const BooksList: React.FC = () => {
     const loadBooks = async () => {
       try {
         const response = await fetch(
-          `http://localhost:3001/books?page=${page}`
+          `https://narratiq-server.vercel.app/books?page=${page}`
         );
         if (!response.ok) {
           throw new Error("Network response was not ok");
